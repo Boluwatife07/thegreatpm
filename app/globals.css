@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  /* Ink — base surfaces */
+  --ink: #15171c;
+  --ink-soft: #1d2028;
+  --panel: #22252e;
+  --panel-line: #33374133;
+
+  /* Paper — light surfaces & on-dark text */
+  --paper: #f6f2e9;
+  --paper-dim: #e7e1d2;
+
+  /* Signature accent — Lagos-sun amber */
+  --amber: #e2a23b;
+  --amber-soft: #e2a23b26;
+
+  /* Secondary — muted slate teal, a nod to the old brand */
+  --slate: #4c7a7d;
+  --slate-soft: #4c7a7d26;
+
+  /* Tertiary — soft clay, used sparingly */
+  --clay: #c07856;
+
+  --muted: #8b8f9a;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-panel: var(--panel);
+  --color-panel-line: var(--panel-line);
+  --color-paper: var(--paper);
+  --color-paper-dim: var(--paper-dim);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-slate: var(--slate);
+  --color-slate-soft: var(--slate-soft);
+  --color-clay: var(--clay);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-fraunces);
+}
+
+body {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: var(--amber);
+  color: var(--ink);
+}
+
+.ticket-eyebrow {
+  font-family: var(--font-mono), monospace;
+  letter-spacing: 0.08em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

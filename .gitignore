@@ -1,0 +1,7 @@
+# create a .gitignore
+@"
+node_modules/
+.next/
+tsconfig.tsbuildinfo
+"@ | Out-File -Encoding utf8 .gitignore
+

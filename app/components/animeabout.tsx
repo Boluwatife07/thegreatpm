@@ -23,7 +23,7 @@ const skillGroups = [
     skills: ['UAT Coordination', 'Test Case Design', 'Defect Management', 'Process Improvement'],
   },
   {
-    category: 'Frontend Dev',
+    category: 'Technical Background',
     skills: ['React.js', 'Next.js', 'JavaScript', 'HTML5 / CSS3', 'Tailwind CSS'],
   },
   {
@@ -74,9 +74,9 @@ export default function AnimatedAboutPage() {
               a Technical Project Manager based in Lagos. I got here the long way round —
               I started as a frontend developer, moved into project coordination because I
               kept being the person who could explain engineering to everyone else, and now
-              I run delivery end to end: PRDs, sprint planning, QA/UAT, and keeping a room full
-              of engineers, designers, and stakeholders pointed at the same goal. I never
-              actually stopped developing, either — I still build prototypes and quick UI
+              I coordinate delivery across the board: PRDs, sprint planning, QA/UAT, and keeping
+              a room full of engineers, designers, and stakeholders pointed at the same goal. I
+              never actually stopped developing, either — I still build prototypes and quick UI
               mockups, it&rsquo;s just folded into how I manage delivery now instead of being
               a separate job.
             </p>

@@ -38,7 +38,7 @@ const roles = [
   {
     id: 'ROLE-05',
     status: 'IN PROGRESS',
-    title: 'Senior Operations & Coordination',
+    title: 'Technical Project Manager',
     org: 'BrightBridge Connect',
     period: '2026 – Present',
   },
@@ -137,7 +137,7 @@ export default function HomePage() {
 
     <p className="text-paper-dim text-lg md:text-xl leading-relaxed mt-6">
       I&rsquo;m a Technical Project Manager who started out as a frontend developer —
-      and I never actually stopped. I run delivery across product, engineering, design,
+      and I never actually stopped. I coordinate delivery across product, engineering, design,
       and marketing, and I still build things: prototypes, quick UI mockups, working
       proof-of-concepts. I just found a way to fold it into how I manage delivery,
       instead of leaving it behind.

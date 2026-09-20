@@ -10,17 +10,17 @@ const highlights = [
     role: 'Technical Project Manager',
     meta: 'London, UK · Remote · 2026 – Present',
     body:
-      "I lead delivery across a pre-launch UK SaaS platform for neighbourhood communities — coordinating engineering, design, marketing and legal. In practice that means turning business asks into PRDs and acceptance criteria, running sprint planning and QA/UAT, and running a stabilisation push focused purely on release reliability.",
-    tags: ['PRDs', 'Sprint Planning', 'QA/UAT', 'Cross-functional Leadership'],
+      "I coordinate delivery across a pre-launch UK SaaS platform for neighbourhood communities — engineering, design, marketing and legal all touch this. Day to day that's PRDs and acceptance criteria, sprint planning and backlog refinement, QA/UAT, dependency tracking, and a stabilisation push aimed squarely at release reliability. I also work directly with our external dev vendor on delivery.",
+    tags: ['PRDs', 'Sprint Planning', 'QA/UAT', 'Dependency Tracking'],
   },
   {
     id: 'DEL-02',
     org: 'BrightBridge Connect',
-    role: 'Senior Coordination & Operations',
+    role: 'Technical Project Manager',
     meta: 'Remote',
     body:
-      "I handle senior operations and coordination here, working directly with the founder across engineering, design and marketing to keep delivery moving and priorities clear.",
-    tags: ['Operations', 'Stakeholder Management', 'Founder Partnership'],
+      "I hold the same kind of role at BrightBridge Connect, a pre-launch UK supported-living property sourcing platform — working directly with the founder across engineering, design, contracts, and property sourcing to keep delivery on track and priorities clear.",
+    tags: ['Technical Delivery', 'Stakeholder Management', 'Founder Partnership'],
   },
   {
     id: 'DEL-03',

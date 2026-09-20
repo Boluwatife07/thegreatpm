@@ -106,57 +106,61 @@ export default function HomePage() {
 
           <div id="home" className="px-5">
         <section className="flex flex-col py-16 md:py-24 gap-14 px-5 md:px-20 max-w-7xl mx-auto">
-          <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12">
-            <div className="flex flex-col gap-6 max-w-3xl">
-             
-               <div className="shrink-0 relative">
-              <div className="absolute -inset-3 rounded-full  border-amber/40 border-2" />
-              <img
-                src="/headshot.png"
-                alt="Dorcas Adeboye"
-                className="relative  aspect-[4/5] object-cover rounded-full border border-panel-line shadow-2xl"
-              />
-             
-            </div>
-              <h1 className="font-display text-4xl md:text-6xl leading-tight text-paper">
-                Hi, I&rsquo;m{' '}
-                <span className="text-amber">
-                  <Typewriter
-                    words={['Dorcas.']}
-                    loop={false}
-                    cursor
-                    cursorStyle="|"
-                    typeSpeed={100}
-                    deleteSpeed={50}
-                    delaySpeed={1500}
-                  />
-                </span>
-              </h1>
-              <p className="text-paper-dim text-lg md:text-xl leading-relaxed">
-                I&rsquo;m a Technical Project Manager who started out as a frontend developer —
-                and I never actually stopped. I run delivery across product, engineering, design,
-                and marketing, and I still build things: prototypes, quick UI mockups, working
-                proof-of-concepts. I just found a way to fold it into how I manage delivery,
-                instead of leaving it behind.
-              </p>
-              <div className=" flex md:block  gap-4 pt-2">
-                <a
-                  href="#contact"
-                  className="bg-amber text-ink font-semibold px-2 py-3 rounded-lg hover:bg-paper transition"
-                >
-                  Let&rsquo;s talk
-                </a>
-                <a
-                  href="#highlights"
-                  className="border border-panel-line text-paper px-3 py-3 rounded-lg hover:border-amber hover:text-amber transition"
-                >
-                  See what I&rsquo;ve delivered
-                </a>
-              </div>
-</div>
-           
-</div>
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-10 lg:gap-16">
+  
+  {/* Image */}
+  <div className="shrink-0 relative">
+    <div className="absolute -inset-3 rounded-full border-amber/40 border-2" />
+    <img
+      src="/headshot.png"
+      alt="Dorcas Adeboye"
+      className="relative aspect-[4/5] w-64 md:w-72 object-cover rounded-full border border-panel-line shadow-2xl"
+    />
+  </div>
 
+  {/* Text */}
+  <div className="flex flex-col max-w-3xl">
+    <h1 className="font-display text-4xl md:text-6xl leading-tight text-paper">
+      Hi, I&rsquo;m{' '}
+      <span className="text-amber">
+        <Typewriter
+          words={['Dorcas.']}
+          loop={false}
+          cursor
+          cursorStyle="|"
+          typeSpeed={100}
+          deleteSpeed={50}
+          delaySpeed={1500}
+        />
+      </span>
+    </h1>
+
+    <p className="text-paper-dim text-lg md:text-xl leading-relaxed mt-6">
+      I&rsquo;m a Technical Project Manager who started out as a frontend developer —
+      and I never actually stopped. I run delivery across product, engineering, design,
+      and marketing, and I still build things: prototypes, quick UI mockups, working
+      proof-of-concepts. I just found a way to fold it into how I manage delivery,
+      instead of leaving it behind.
+    </p>
+
+    <div className="flex flex-wrap gap-4 pt-6">
+      <a
+        href="#contact"
+        className="bg-amber text-ink font-semibold px-4 py-3 rounded-lg hover:bg-paper transition"
+      >
+        Let&rsquo;s talk
+      </a>
+
+      <a
+        href="#highlights"
+        className="border border-panel-line text-paper px-4 py-3 rounded-lg hover:border-amber hover:text-amber transition"
+      >
+        See what I&rsquo;ve delivered
+      </a>
+    </div>
+  </div>
+
+</div>
           {/* Signature element: career ticket board */}
           <div className="w-full">
             <p className="ticket-eyebrow text-xs uppercase text-muted mb-4">

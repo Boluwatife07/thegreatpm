@@ -23,7 +23,7 @@ const roles = [
   },
   {
     id: 'ROLE-03',
-    status: 'DONE',
+    status: 'IN PROGRESS',
     title: 'Jr. Technical Project Coordinator',
     org: 'Africa Gaming Expo',
     period: '2025 – 2026',
